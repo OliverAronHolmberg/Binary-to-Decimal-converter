@@ -1,10 +1,5 @@
-
 def binary_to_decimal_converter(binary_number):
-
-
     binary_list = list(str(binary_number))
-
-
     decimal_list = []
 
     exponent=0
@@ -23,6 +18,8 @@ def binary_to_decimal_converter(binary_number):
         decimal_number+=decimal
 
     return decimal_number
+
+
 
 
 list_of_acceptable_symbols = ["0", "1"]
